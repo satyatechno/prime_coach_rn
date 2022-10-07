@@ -1,0 +1,73 @@
+{
+    "sport_name": "Lawn Tennis",
+    "analysis_data": [{
+            "id": 1,
+            "title": "General Overview",
+            "isExpanded": false,
+            "points": [{
+                    "point": "Tennis is a racket sport that can be played in a ‘singles’ or ‘doubles’ format. The aim of the sport is to propel a ball over or around a net into the opponent’s court. If the ball is not properly returned, a point is awarded to the opposing player(s). Thus, the objective is to play the ball in such a way to make it difficult for the opponent to return it successfully (Lees, 2003). The sport is characterised by high-intensity actions, interspersed with low-intensity actions and recovery periods. These occur in-between points and breaks in play (Fernandez-Fernandez, et al, 2014). Tennis demands a number of fitness components, including agility, power, speed, as well as enhanced aerobic fitness due to the potential duration of a match (Kovacs, 2006)."
+                },
+                {
+                    "point": "Intramuscular phosphates and glycolysis for bouts of high-intensity actions"
+                }
+            ],
+            "subPoints": [{
+                    "point": "This is a subpoint 1"
+                },
+                {
+                    "point": "This is a subpoint 2"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Needs analysis for sport",
+            "isExpanded": false,
+            "points": [{
+                    "point": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                {
+                    "point": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Needs analysis for athletes",
+            "isExpanded": false,
+            "points": [{
+                    "point": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                {
+                    "point": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Most common injures",
+            "isExpanded": false,
+            "points": [{
+                    "point": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                {
+                    "point": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Testing Batteries",
+            "isExpanded": false,
+            "points": [{
+                    "watch_now": true,
+                    "point": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "video_url": "https://wwww.youtube.com"
+                },
+                {
+                    "point": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                }
+            ]
+        }
+    ]
+}

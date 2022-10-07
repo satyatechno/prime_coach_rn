@@ -1,0 +1,117 @@
+{
+  "prime": "Prime",
+  "coach": "Coach",
+  "welcome": {
+    "smart": "Smart ",
+    "onlStr": "Online Strength &",
+    "condCoach": "Conditioning Coach",
+    "start": "Start Now",
+    "already": "Already have an account? ",
+    "logIn": " Log in",
+    "asAthlete": "Sign-in as Athlete",
+    "asCoach": "Sign-in as Coach"
+  },
+  "login": {
+    "login": "Log in",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot your password?",
+    "asNew": "Register as a new user",
+    "enterEmail": "Enter your email",
+    "submit": "Submit"
+  },
+  "forgot": {
+    "enterOtp": "Enter OTP",
+    "next": "Next",
+    "createNew": "Create New Password",
+    "submit": "Submit",
+    "password": "Password",
+    "reenter": "Re-enter password",
+    "otpHead": "Enter the OTP sent to your email address",
+    "reset": "Enter a new password"
+  },
+  "signup": {
+    "selectSport": "Select a Sport",
+    "selectPlan": "Select a Plan",
+    "select": "Select",
+    "register": "Register",
+    "createNew": "Create a new account",
+    "email": "Email",
+    "password": "Password",
+    "reenter": "Re-enter password",
+    "confirmPass": "Confirm password",
+    "fName": "First Name",
+    "sName": "Surname",
+    "dob": "Date of Birth",
+    "phone": "Phone Number",
+    "xxx": "1234567890",
+    "address": "Address",
+    "woLocation": "Workout Location",
+    "woFreq": "Workout Frequency",
+    "woPeriod": "Workout Period",
+    "woDiff": "Workout Difficulty",
+    "spcl": "Coach Specialisation"
+  },
+  "home": {
+    "home": "Home"
+  },
+  "train": {
+    "plan": "My Annual Programs"
+  },
+  "teams": {
+    "myTeams": "My Teams",
+    "addNew": "Add New Team",
+    "teamName": "Team Name",
+    "sport": "Sport",
+    "myPlayers": "My Players",
+    "noAddedTeams": "You do not have any Teams, Click on Add New Team button to add a new Team."
+  },
+  "help": {
+    "help": "Help"
+  },
+  "profile": {
+    "profile": "Profile",
+    "editName": "Change Name",
+    "submit": "Submit",
+    "editPass": "Change Password",
+    "oldPass": "Old Password",
+    "newPass": "New Password",
+    "confirmNew": "Confirm New Password",
+    "email": "Your Email Address",
+    "emailNoUpdate": "Your email cannot be updated after sign up.",
+    "editDOB": "Change Date of Birth",
+    "newDOB": "Choose a new Date of Birth",
+    "editPhone": "Change Phone Number",
+    "newPhone": "Enter a new Phone Number",
+    "editAddress": "Change Address",
+    "newAddress": "Enter a new address",
+    "privacy": "Privacy Policy",
+    "refer": "Send to a Friend",
+    "faqs": "Frequently Asked Questions",
+    "terms": "Terms & Conditions",
+    "editSpcl": "Change Specialisation",
+    "newSpcl": "Choose a new Specialisation",
+    "editWeight": "Update your Weight",
+    "editHeight": "Update your Height",
+    "editGender": "Update your Gender",
+    "newWeight": "Enter a new weight",
+    "newHeight": "Enter a new height",
+    "newGender": "Choose a New Gender"
+  },
+  "addNewPC": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPass": "Confirm password",
+    "fName": "First Name",
+    "sName": "Surname",
+    "dob": "Date of Birth",
+    "sportPos": "Sport Position"
+  },
+  "testing": {
+    "testProt": "Testing Protocols",
+    "default": "Default"
+  },
+  "reports": {
+    "reports": "Reports"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<item name="indigo" type="color">#141223</item>
+
+<integer-array name="androidcolors">
+    <item>@color/indigo</item>
+</integer-array>
+</resources>

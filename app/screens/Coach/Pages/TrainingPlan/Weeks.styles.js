@@ -1,0 +1,252 @@
+import { StyleSheet } from "react-native";
+import { Colors } from "../../../../constants/Colors";
+import {
+  DEV_WIDTH,
+  IS_IOS,
+  DEV_HEIGHT,
+} from "../../../../constants/DeviceDetails";
+import {
+  ROBO_REGULAR,
+  ROBO_BOLD,
+  ROBO_MEDIUM,
+  POP_REGULAR,
+} from "../../../../constants/Fonts";
+import { findSize } from "../../../../utils/helper";
+
+console.log(DEV_HEIGHT);
+
+export const styles = StyleSheet.create({
+  title: {
+    fontSize: findSize(12),
+    fontFamily: POP_REGULAR,
+    color: Colors.INPUT_PLACE,
+    marginTop: 10,
+  },
+  value: {
+    fontSize: findSize(13),
+    fontFamily: POP_REGULAR,
+    color: Colors.WHITE_COLOR,
+  },
+  planName: {
+    color: Colors.SKY_COLOR,
+    fontFamily: ROBO_REGULAR,
+    fontSize: 18,
+  },
+  seasonName: {
+    color: Colors.WHITE_COLOR,
+    fontSize: 18,
+    fontFamily: ROBO_REGULAR,
+  },
+  week: {
+    color: Colors.WHITE_COLOR,
+    fontSize: findSize(24),
+    fontFamily: POP_REGULAR,
+  },
+  weekRow: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginTop: 10,
+  },
+  line: {
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.WHITE_COLOR,
+    marginTop: 5,
+  },
+  heads: {
+    fontSize: 15,
+    color: Colors.WHITE_COLOR,
+    fontFamily: ROBO_REGULAR,
+    marginBottom: 5,
+  },
+  btnRowContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    flexWrap: "wrap",
+    justifyContent: "space-evenly",
+  },
+  borderedBtns: {
+    width: (DEV_WIDTH * 40) / 100,
+    alignSelf: "center",
+    backgroundColor: Colors.BG_COLOR,
+    marginTop: 5,
+    borderWidth: 1,
+    borderColor: Colors.SKY_COLOR,
+    height: 40,
+  },
+  weekButton: {
+    borderWidth: 3,
+    height: 35,
+    borderColor: Colors.SKY_COLOR,
+    backgroundColor: Colors.BG_COLOR,
+    width: "90%",
+    alignSelf: "center",
+  },
+  iconBtn: {
+    backgroundColor: Colors.GREEN_COLOR,
+    height: 30,
+    width: 30,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 3,
+  },
+  copyIconImg: {
+    height: 25,
+    width: 25,
+    resizeMode: "contain",
+    tintColor: Colors.WHITE_COLOR,
+  },
+  iconsContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: "90%",
+    alignSelf: "center",
+  },
+  boxContainer: {
+    height: 110,
+    width: "95%",
+    borderWidth: 1,
+    borderColor: Colors.WHITE_COLOR,
+    justifyContent: "center",
+    alignSelf: "center",
+  },
+  container: {
+    backgroundColor: Colors.BG_LIGHT,
+    minHeight: 130,
+    paddingVertical: 10,
+    marginVertical: 10,
+  },
+  heads: {
+    fontSize: 15,
+    color: Colors.WHITE_COLOR,
+    fontFamily: ROBO_REGULAR,
+    marginBottom: 5,
+  },
+  iconsView: {
+    flexDirection: "row",
+    alignItems: "center",
+    position: "absolute",
+    left: IS_IOS && DEV_HEIGHT <= 568 ? "79%" : "82%",
+    top: IS_IOS ? 295 : 280,
+    zIndex: 9999,
+  },
+  setsRest: {
+    fontSize: 18,
+    color: Colors.WHITE_COLOR,
+    fontFamily: POP_REGULAR,
+    textAlign: "center",
+    marginBottom: 10,
+  },
+  emptyBox: {
+    height: 35,
+    width: 35,
+    borderWidth: 1.3,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    marginBottom: 15,
+  },
+  repsRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  checkDeleteIcons: {
+    backgroundColor: Colors.LIGHT_RED,
+    width: 50,
+    height: 45,
+    marginBottom: 15,
+  },
+  checkIcon: {
+    borderWidth: 1,
+    borderColor: Colors.SKY_COLOR,
+    backgroundColor: Colors.BG_COLOR,
+  },
+  updateBtn: {
+    backgroundColor: Colors.BG_COLOR,
+    width: 60,
+    borderWidth: 1,
+    borderColor: Colors.SKY_COLOR,
+    padding: 10,
+    borderRadius: 5,
+    alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  updateText: {
+    fontSize: 16,
+    color: Colors.WHITE_COLOR,
+    fontFamily: ROBO_MEDIUM,
+  },
+  exerciseRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 15,
+  },
+  daysText: {
+    color: Colors.INPUT_PLACE,
+    fontSize: findSize(14),
+    fontFamily: POP_REGULAR,
+  },
+  daysBtnContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+  },
+  exerGrpTxt: {
+    fontSize: 22,
+    color: Colors.BLACK_COLOR,
+    fontFamily: ROBO_REGULAR,
+    marginBottom: 10,
+  },
+  head: {
+    height: 45,
+    backgroundColor: Colors.WHITE_COLOR,
+  },
+  text: {
+    margin: 12,
+    color: Colors.BLACK_COLOR,
+    fontFamily: ROBO_REGULAR,
+    fontSize: 16,
+  },
+  row: {
+    flexDirection: "row",
+    backgroundColor: Colors.WHITE_COLOR,
+  },
+  assignBtn: {
+    width: 35,
+    backgroundColor: Colors.GREEN_COLOR,
+    borderRadius: 2,
+    alignSelf: "center",
+    padding: 5,
+    alignItems: "center",
+    height: 35,
+    justifyContent: "center",
+  },
+  btnAssignText: {
+    textAlign: "center",
+    color: Colors.WHITE_COLOR,
+    fontFamily: ROBO_REGULAR,
+  },
+  exerciseName: {
+    fontSize: 16,
+    color: Colors.WHITE_COLOR,
+    fontFamily: ROBO_MEDIUM,
+    marginLeft: 10,
+    width: DEV_WIDTH / 1.2,
+    textAlign: "justify",
+  },
+  warningContainer: {
+    marginTop: 10,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  warningTxt: {
+    color: Colors.LIGHT_RED,
+    marginLeft: 10,
+    fontFamily: ROBO_REGULAR,
+    fontSize: 16,
+    textAlign: "justify",
+    width: DEV_WIDTH / 1.2,
+  },
+});

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">#000000</item>
+        <item name="colorPrimary">#EF5B02</item>
+        <item name="android:windowBackground">@color/indigo</item>
+        <item name="android:datePickerDialogTheme">@style/dialogTheme</item>
+<item name="android:timePickerDialogTheme">@style/dialogTheme</item>
+    </style>
+
+    <style name="dialogTheme" parent="Theme.AppCompat.Light.Dialog">
+<!-- BackgroundColor of the date modal -->
+<item name="colorAccent">#EF5B02</item>
+        <item name="colorPrimary">#EF5B02</item>
+
+<item name="android:colorAccent">#EF5B02</item>
+<!-- Change textColor of the date modal -->
+<item name="android:textColorPrimary">#EF5B02</item>
+</style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+</resources>
